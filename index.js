@@ -1,4 +1,4 @@
-exports.default = function(callback, timeout = 500) {
+exports = function(callback, timeout = 500) {
   var value = '';
   var timer = null;
 
