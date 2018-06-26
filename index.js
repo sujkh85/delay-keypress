@@ -1,16 +1,16 @@
-export default (callback, timeout = 500) => {
-  let value = '';
-  let timer = null;
+exports.default = function(callback, timeout = 500) {
+  var value = '';
+  var timer = null;
 
-  let run = () => {
-    timer = setTimeout(() => {
+  var run = () => {
+    timer = setTimeout(function() {
       callback(value);
       clearTimeout(timer);
       timer = null;
     }, timeout);
   };
 
-  return e => {
+  return function(e) {
     value = e.target.value;
     if (!timer) {
       run();
