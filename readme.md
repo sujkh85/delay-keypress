@@ -1,5 +1,11 @@
 # delay-keypress
 
+### install
+
+```
+  npm i delay-keypress
+```
+
 ## Engish
 
 ---
