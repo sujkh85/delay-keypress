@@ -1,6 +1,6 @@
 {
   "name": "delay-keypress",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "javascript key event util",
   "main": "./index.js",
   "scripts": {
@@ -12,8 +12,7 @@
   },
   "keywords": [
     "javascript",
-    "util",
-    "es6"
+    "util"
   ],
   "author": "sujkh85",
   "license": "ISC",
